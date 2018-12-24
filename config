@@ -1,0 +1,16 @@
+{
+    "driver":{
+        "Darwin":"./driver/chromedriver",
+        "Linux":"./driver/chromedriver_linux",
+        "Windows":"./driver/chromedriver.exe"
+    },
+    "firefoxDriver":{
+        "Darwin":"./driver/geckodriver",
+        "Linux":"./driver/geckodriver_linux",
+        "Windows":"./driver/geckodriver.exe"
+    },
+    "production":true,
+    "remoteDebug":true,
+    "browser":"remote",
+    "remoteServer":"http://mc01.cs.purdue.edu:4444/wd/hub"
+}
